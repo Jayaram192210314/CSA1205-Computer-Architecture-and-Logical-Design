@@ -1,0 +1,9 @@
+start: nop
+LDA 2050
+ANI 01H
+JZ L1
+MVI A,11
+JMP L2
+L1: MVI A,22
+L2: STA 2056
+hlt
