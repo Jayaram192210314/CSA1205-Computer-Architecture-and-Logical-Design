@@ -1,0 +1,9 @@
+start: nop
+LDA 2500
+MOV B, A
+LDA 2501
+CMP B
+JC 2502
+MOV A, B
+STA 2503
+hlt
