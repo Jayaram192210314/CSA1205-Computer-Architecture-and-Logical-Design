@@ -1,0 +1,11 @@
+start: nop
+LHLD 2001
+MOV A, H
+SUB L
+JP 2000
+MOV A, L
+STA 2002
+hlt
+MOV A, H
+STA 2003
+hlt
